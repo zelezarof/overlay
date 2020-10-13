@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE repositories SYSTEM "/dtd/repositories.dtd">
+<repositories xmlns="" version="1.0">
+  <repo quality="experimental" status="unofficial">
+    <name><![CDATA[zelezarof]]></name>
+    <description lang="en"><![CDATA[overlay by zelezarof]]></description>
+    <homepage>http://github.com/zelezarof/overlay</homepage>
+    <owner type="person">
+      <email>zelezarof@gmail.com</email>
+      <name><![CDATA[Jose Manuel Zelezarof]]></name>
+    </owner>
+    <source type="git">https://github.com/zelezarof/overlay.git</source>
+    <feed>http://github.com/zelezarof/overlay/commits/master.atom</feed>
+  </repo>
+</repositories>
