@@ -56,7 +56,7 @@ src_unpack() {
 	cd "${S}" || die
 	local i list=( libnbtplusplus-${LIBNBTPLUSPLUS_VER} quazip-${QUAZIP_VER} )
 	for i in "${list[@]}"; do
-		tar xf "${DISTDIR}/${P}-${i}.tar.gz" --strip-components 1 -C libraries/${i%-*} || die
+		tar xf "${DISTDIR}/${P}.tar.gz" --strip-components 1 -C libraries/${i%-*} || die
 	done
 }
 
